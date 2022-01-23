@@ -1,0 +1,172 @@
+
+
+#uploadField {
+    font-family: "Brown-Regular";
+    text-align: center;
+    background-color: white;
+    margin: 35px;
+    min-height: 100px;
+    border: 2px dashed #f10026;
+    border-radius: 5px;
+
+    .filepond {
+
+        &--drip {
+            background: none;
+        }
+
+        &--browser {
+            height: 100%;
+            min-height: 172px;
+        }
+
+        &--drop-label {
+            margin: 30px;
+            position: relative;
+            top: 0;
+            height: auto;
+            min-height: auto;
+            display: inline-block;
+            z-index: 2000;
+            background-color: white;
+
+            label {
+                position: relative;
+                padding-left: 40px;
+                font-family: "Brown-Regular";
+                color: $dark;
+
+                &:before {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    height: 30px;
+                    width: 30px;
+                    background-image: url('#{$appImgPath}/img/plus-circle.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    left: 0;
+                    top: 3px;
+                }
+            }
+            @media (max-width: 540px) {
+                height: 150px;
+                label {
+                    padding: 50px 0 0 0;
+                    margin: 0;
+                    height: auto;
+                    line-height: 1em;
+                    &:before {
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                        top: 10px;
+                    }
+                }
+            }
+        }
+
+        &--item {
+            width: calc(33.33% - .5em);
+            height: 300px !important;
+            overflow: hidden;
+            padding: 10px;
+            margin: 0;
+            fieldset {
+                padding: 15px;
+                background-color: white;
+                border: 2px solid $grey-0;
+                border-radius: 10px;
+                overflow: hidden;
+                position: relative;
+            }
+            > div {
+                visibility: hidden;
+            }
+            @media (max-width: 991px) {
+                width: calc(50% - .5em);
+            }
+            @media (max-width: 765px) {
+                width: calc(100% - .5em);
+            }
+        }
+
+        &--file-poster-wrapper {
+            width: calc(100% - 30px);
+            height: calc(100% - 70px);
+            left: 15px;
+            top: 15px;
+            border-radius: 0;
+            > div {
+                img {}
+            }
+            canvas {
+                // display:none;
+                opacity: .3 !important;
+            }
+        }
+
+        &--panel {
+            > div {
+                background-color: transparent !important;
+            }
+        }
+
+        &--file-info {
+            transform: none !important;
+        }
+
+        &--action-remove-item {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            width: 23px;
+            height: 23px;
+            background-image: url('#{$appImgPath}/img/trash.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: transparent;
+            span {
+                display: none;
+            }
+            &:after {
+                content: "Delete";
+                position: relative;
+                top: -18px;
+                left: 30px;
+                right: auto;
+                color: $primary;
+                bottom: auto;
+                margin: 0;
+            }
+        }
+        &--action-edit-item {
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
+            left: auto;
+            background: transparent;
+            margin: 0;
+            height: 30px;
+            width: 30px;
+            display: none;
+            svg {
+                color: $primary;
+                height: 30px;
+                width: 30px;
+            }
+        }
+
+        &--credits {
+            display: none;
+        }
+    }
+
+    .uploads-title {
+        position: relative;
+        top: -20px;
+        left: 30px;
+        // font-size: 1rem;
+        text-align: left;
+    }
+}

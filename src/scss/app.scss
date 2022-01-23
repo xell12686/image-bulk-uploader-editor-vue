@@ -1,0 +1,33 @@
+
+@import 'variables';
+@import 'icons';
+@import 'bs-overrides';
+@import 'file-pond';
+
+
+.text-pointer {
+    cursor: pointer;
+}
+
+.DokaModal {
+    background-color: rgb(0 0 0 / 20%);
+    .DokaRoot {
+        max-width: 80vw;
+        max-height: 80vh;
+    }
+    .DokaNav {
+        .DokaButtonExport {
+            background-color: $primary;
+            color: white;
+            padding: 10px 15px;
+            font-family: "Brown-Regular", sans-serif;
+            width: auto;
+            height: auto;
+            span {
+                font-size: 16px;
+                line-height: 1 !important;
+            }
+        }
+    }
+}
+

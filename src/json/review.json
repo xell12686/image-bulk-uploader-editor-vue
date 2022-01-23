@@ -1,0 +1,17 @@
+{
+    "title": "Reminders",
+    "copy": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "dos": [
+        "Praesent at enim nec metus lacinia dignissim sit amet ut tortor.",
+        "Nulla pulvinar eros vel commodo euismod.",
+        "In eu tellus hendrerit, maximus quam id, efficitur lorem.",
+        "Sed mollis mauris id mollis auctor.",
+        "Aenean egestas lorem eu efficitur tempor."
+    ],
+    "donts": [
+        "Nullam in elementum nulla",
+        "Cras vel nibh ultrices, varius lectus in, tristique orci.",
+        "Etiam mollis lacus at sapien ullamcorper",
+        "Phasellus tempus ligula in massa tristique"
+    ]
+}

@@ -1,0 +1,33 @@
+[
+    {
+        "title": "Take Pictures",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+        "img": "step1.png"
+    },
+    {
+        "title": "Upload",
+        "text": "Integer vitae velit ut est placerat efficitur nec nec erat. Qis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+        "img": "step1.png"
+    },
+    {
+        "title": "Edit",
+        "text": "Sed et semper purus, at malesuada tellus. Aliquam erat volutpat.",
+        "img": "step2.png"
+    },
+    {
+        "title": "Review do’s and dont’s",
+        "dos": [
+            "Praesent at enim nec metus lacinia dignissim sit amet ut tortor.",
+            "Nulla pulvinar eros vel commodo euismod.",
+            "In eu tellus hendrerit, maximus quam id, efficitur lorem.",
+            "Sed mollis mauris id mollis auctor.",
+            "Aenean egestas lorem eu efficitur tempor."
+        ],
+        "donts": [
+            "Nullam in elementum nulla",
+            "Cras vel nibh ultrices, varius lectus in, tristique orci.",
+            "Etiam mollis lacus at sapien ullamcorper",
+            "Phasellus tempus ligula in massa tristique"
+        ]
+    }
+]

@@ -1,0 +1,64 @@
+
+.text-primary {
+    color: $primary !important;
+}
+
+.text-light {
+    color: white;
+}
+
+.btn-primary {
+    background-color: $primary;
+    border-color: $primary;
+    color: white;
+}
+
+.bg-dark {
+    background-color: $dark;
+}
+
+.border-light {
+    border: 2px solid white;
+}
+
+.h2, .h3, .h4 {
+    display: block;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: $primary;
+    border: 2px solid $primary;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 20px;
+    line-height: 23px;
+    svg {
+        height: 23px;
+    }
+    &-alt {
+        color: $primary;
+        background-color: white;
+    }
+    &-next {
+        svg {
+            margin-right: -10px;
+        }
+    }
+    &-prev {
+        svg {
+            margin-left: -10px;
+        }
+    }
+    
+    &-transparent {
+        background-color: transparent;
+        color: white;
+    }
+
+    &:hover {
+        outline: none;
+        color: white;
+        box-shadow: rgb(0 0 0 / 20%) 0px 2px 10px, rgb(0 0 0 / 30%) 0px 4px 15px;
+    }
+}
